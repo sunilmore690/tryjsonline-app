@@ -4,7 +4,7 @@
   <!-- bidirectional data binding（双向数据绑定） -->
   <el-row>
     <el-col :span="10"><h1>Compile JS Online</h1></el-col>
-    <el-col :span="4"> Github: <a href="https://github.com/sunilmore690/tryjsonline"></a></el-col>
+    <el-col :span="4"> Github: <a href="https://github.com/sunilmore690/tryjsonline">TryJsOnline</a></el-col>
     <el-col :span="4"></el-col>
   </el-row>
   <el-button type="success" v-on:click='add' size="medium">ADD</el-button>
