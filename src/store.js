@@ -53,9 +53,9 @@ const store = new Vuex.Store({
       );
     },
     update(state, id, data) {
-        let programs = state.programs;
-        var match = _.where(programs , {id  :id });
-        match = {...match,...data}  
+      let programs = state.programs;
+      var match = _.where(programs, { id: id });
+      match = {...match, ...data };
     },
     initialiseStore(state) {
       // Check if the ID exists
