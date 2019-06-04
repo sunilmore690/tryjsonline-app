@@ -96,7 +96,7 @@ export default {
 
       try {
         eval(this.code);
-        console.log = old;
+        // console.log = old;
         this.error = {};
       } catch (e) {
         this.error = e;
@@ -123,7 +123,7 @@ export default {
   },
   created() {
     this.code = this.program.code;
-    this.runProgram();
+    // this.runProgram();
   },
   computed: {
     codemirror() {

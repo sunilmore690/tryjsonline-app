@@ -1,0 +1,5 @@
+node_modules/
+src/
+.vscode/
+package.json
+webpack.config.json
